@@ -28,17 +28,10 @@ This is the practice lesson of week 10 at Epicodus web application with database
 
 1. dotnet add package Microsoft.EntityFrameworkCore -v 5.0.0
 2. dotnet add package Pomelo.EntityFrameworkCore.MySql -v 5.0.0-alpha.2
-3. Clone github repository to local machine in desired directory <a href=""> Click here! </a>
-
-
-
-1. Code editor required such as VS code and .NET 5.0 installed
-2. Clone github repository to local machine in desired directory <a href="https://github.com/keidsiri/VendorOrder.Solution"> Click here! </a>
-3. In the terminal open the directory,navigate to directory `VendorOrder.Solution/VendorOrder` run the command `$ dotnet restore` to create obj and bin directories
-4. Run the command `$ dotnet build` to build and compile the project
-5. To test the code in the terminal run the command `$ dotnet test` in the `VendorOrder.Solution/VendorOrder.Tests` folder.
+3. Clone github repository to local machine in desired directory <a href="https://github.com/JeffTerrell/animal-shelter-csharp"> Click here! </a>
+4. In the terminal open the directory,navigate to directory `VendorOrder.Solution/VendorOrder` run the command `$ dotnet restore` to create obj and bin directories
+5. Run the command `$ dotnet build` to build and compile the project
 6. To run the console application navigate to `VendorOrder.Solution/VendorOrder` folder in the terminal , and run the command `dotnet run` to see the web application.
-
 
 ## Known Bugs
 
@@ -46,9 +39,9 @@ No known issues
 
 ## License
 
-#### [MIT](https://opensource.org/licenses/MIT) Copyright (c) _2021_ _Kate Kiatsiri_
+#### [MIT](https://opensource.org/licenses/MIT) Copyright (c) _2021_ _Jeff Terrell, Karen Axon & Kate Kiatsiri_
 
 ## Contact Information
 
-_If you have any questions please feel free to [contact me](mailto:keidsiri@gmail.com)_
+_If you have any questions please feel free to [Kate K.](mailto:keidsiri@gmail.com)_
 
