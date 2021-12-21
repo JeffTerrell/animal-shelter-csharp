@@ -29,9 +29,17 @@ This is the practice lesson of week 10 at Epicodus web application with database
 1. dotnet add package Microsoft.EntityFrameworkCore -v 5.0.0
 2. dotnet add package Pomelo.EntityFrameworkCore.MySql -v 5.0.0-alpha.2
 3. Clone github repository to local machine in desired directory <a href="https://github.com/JeffTerrell/animal-shelter-csharp"> Click here! </a>
-4. In the terminal open the directory,navigate to directory `VendorOrder.Solution/VendorOrder` run the command `$ dotnet restore` to create obj and bin directories
-5. Run the command `$ dotnet build` to build and compile the project
-6. To run the console application navigate to `VendorOrder.Solution/VendorOrder` folder in the terminal , and run the command `dotnet run` to see the web application.
+4. Create .gitignore file in root directory add `*/appsettings.json` to the file
+4. Create file appsettings.json in root directory in the project and add the code below and change the database to animal_shelter
+```{
+    "ConnectionStrings": {
+        "DefaultConnection": "Server=localhost;Port=3306;database=to_do_list;uid=root;pwd=[YOUR-PASSWORD-HERE];"
+    }
+}
+```
+5. In the terminal open the directory,navigate to directory `AnimalShelter.Solution/AnimalShelter` run the command `$ dotnet restore` to create obj and bin directories
+6. Run the command `$ dotnet build` to build and compile the project
+7. To run the console application navigate to `AnimalShelter.Solution/AnimalShelter` folder in the terminal , and run the command `dotnet run` to see the web application.
 
 ## Known Bugs
 
@@ -43,5 +51,5 @@ No known issues
 
 ## Contact Information
 
-_If you have any questions please feel free to [Kate K.](mailto:keidsiri@gmail.com)_
+_If you have any questions please feel free to [Contact me](mailto:keidsiri@gmail.com)_
 
